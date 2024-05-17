@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Onet.ViewModels"
+             x:Class="Onet.JobDetails"
+             Title="Job Details"> 
+    
+    <StackLayout Padding="10">
+        <Label Text="Title" FontAttributes="Bold"/>
+        <Entry Text="{Binding SelectedJob.Title}" Placeholder="Title"/>
+
+        <Label Text="Description" FontAttributes="Bold"/>
+        <Editor Text="{Binding SelectedJob.Description}" Placeholder="Description"/>
+
+        <Label Text="Status" FontAttributes="Bold"/>
+        <Entry Text="{Binding SelectedJob.Status}" Placeholder="Status" Keyboard="Numeric"/>
+
+        <Label Text="Creation" FontAttributes="Bold"/>
+        <DatePicker Date="{Binding SelectedJob.Creation}" />
+
+        <Label Text="Started" FontAttributes="Bold"/>
+        <DatePicker Date="{Binding SelectedJob.Started}" />
+
+        <Label Text="Finished" FontAttributes="Bold"/>
+        <DatePicker Date="{Binding SelectedJob.Finished}" />
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Button Text="Add" Command="{Binding AddJobCommand}"/>
+            <Button Text="Update" Command="{Binding UpdateJobCommand}"/>
+            <Button Text="Delete" Command="{Binding DeleteJobCommand}"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

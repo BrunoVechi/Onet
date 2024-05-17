@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Onet.Login">
+    <StackLayout VerticalOptions="Fill"
+                 HorizontalOptions="Fill"
+                 BackgroundColor="#121212">
+        <Image Source="logo.png" VerticalOptions="Start" HeightRequest="130" Margin="0,20,0,5"/>
+        <Label Text="OneTodo" HorizontalOptions="Center" TextColor="White"/>
+        <Label Text="LOGIN" FontSize="Large" HorizontalOptions="Center" TextColor="White"/>
+        <Entry x:Name="Email"
+               Margin="10"
+               MaxLength="60"
+               WidthRequest="350"              
+               HorizontalOptions="Center" 
+               BackgroundColor="#ededed"
+               PlaceholderColor="#424242"
+               FontSize="20"            
+               Placeholder="Nome"/>
+        <Entry x:Name="Password"
+               Margin="10"
+               MaxLength="60"
+               WidthRequest="350" 
+               HorizontalOptions="Center" 
+               BackgroundColor="#ededed"
+               PlaceholderColor="#424242"
+               FontSize="20"           
+               IsPassword="True" 
+               Placeholder="Senha"/>
+        <Button x:Name="BtnLogin" Text="Login" FontSize="22" HorizontalOptions="Center" Margin="0,15,0,10" Clicked="OnBtnLoginClicked"/>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">           
+            <Label x:Name="BtnReset"
+                   Text="Register" 
+                   TextColor="DodgerBlue"
+                   FontSize="20">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnBtnRegisterClicked" />
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

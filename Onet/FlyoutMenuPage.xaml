@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Onet.FlyoutMenuPage"
+             Title="FlyoutMenuPage">
+
+    <StackLayout>
+        <Grid BackgroundColor="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="140" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+            <Image  Source="logo.png"             
+                    HeightRequest="130"                   
+                    HorizontalOptions="Center" 
+                    Margin="0,15,0,30"
+                    Grid.Row="1">
+                <Image.Shadow>
+                    <Shadow Brush="DodgerBlue"
+                            Offset="0,5"
+                            Radius="30"
+                            Opacity="0.7" />
+                </Image.Shadow>
+            </Image>
+        </Grid>
+
+        <CollectionView x:Name="collectionView"
+                        x:FieldModifier="public"
+                        SelectionMode="Single"
+                        SelectionChanged="OnSelectionChanged">
+            <CollectionView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Create Task</x:String>
+                    <x:String>Exit</x:String>
+                </x:Array>
+            </CollectionView.ItemsSource>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="5,15">
+                        <Label Text="{ Binding . }"
+                               FontSize="22"
+                               FontAttributes="Bold"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Start"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

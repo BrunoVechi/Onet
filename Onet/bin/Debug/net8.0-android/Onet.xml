@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Onet</name>
+    </assembly>
+    <members>
+        <member name="T:Onet.ViewModels.JobDetailsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Onet.ViewModels.JobDetailsViewModel.UserId">
+            <inheritdoc cref="F:Onet.ViewModels.JobDetailsViewModel.userId"/>
+        </member>
+        <member name="P:Onet.ViewModels.JobDetailsViewModel.SelectedJob">
+            <inheritdoc cref="F:Onet.ViewModels.JobDetailsViewModel.selectedJob"/>
+        </member>
+        <member name="F:Onet.ViewModels.JobDetailsViewModel.loadUserIdAsyncCommand">
+            <summary>The backing field for <see cref="P:Onet.ViewModels.JobDetailsViewModel.LoadUserIdAsyncCommand"/>.</summary>
+        </member>
+        <member name="P:Onet.ViewModels.JobDetailsViewModel.LoadUserIdAsyncCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Onet.ViewModels.JobDetailsViewModel.LoadUserIdAsync"/>.</summary>
+        </member>
+        <member name="F:Onet.ViewModels.JobDetailsViewModel.addJobCommand">
+            <summary>The backing field for <see cref="P:Onet.ViewModels.JobDetailsViewModel.AddJobCommand"/>.</summary>
+        </member>
+        <member name="P:Onet.ViewModels.JobDetailsViewModel.AddJobCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Onet.ViewModels.JobDetailsViewModel.AddJobAsync"/>.</summary>
+        </member>
+        <member name="F:Onet.ViewModels.JobDetailsViewModel.updateJobCommand">
+            <summary>The backing field for <see cref="P:Onet.ViewModels.JobDetailsViewModel.UpdateJobCommand"/>.</summary>
+        </member>
+        <member name="P:Onet.ViewModels.JobDetailsViewModel.UpdateJobCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Onet.ViewModels.JobDetailsViewModel.UpdateJobAsync"/>.</summary>
+        </member>
+        <member name="F:Onet.ViewModels.JobDetailsViewModel.deleteJobCommand">
+            <summary>The backing field for <see cref="P:Onet.ViewModels.JobDetailsViewModel.DeleteJobCommand"/>.</summary>
+        </member>
+        <member name="P:Onet.ViewModels.JobDetailsViewModel.DeleteJobCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Onet.ViewModels.JobDetailsViewModel.DeleteJobAsync"/>.</summary>
+        </member>
+        <member name="T:Onet.ViewModels.JobListViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Onet.ViewModels.JobListViewModel.Jobs">
+            <inheritdoc cref="F:Onet.ViewModels.JobListViewModel.jobs"/>
+        </member>
+        <member name="P:Onet.ViewModels.JobListViewModel.SelectedJob">
+            <inheritdoc cref="F:Onet.ViewModels.JobListViewModel.selectedJob"/>
+        </member>
+        <member name="F:Onet.ViewModels.JobListViewModel.navigateToJobDetailsCommand">
+            <summary>The backing field for <see cref="P:Onet.ViewModels.JobListViewModel.NavigateToJobDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Onet.ViewModels.JobListViewModel.NavigateToJobDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Onet.ViewModels.JobListViewModel.NavigateToJobDetailsAsync(Onet.Models.Job)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UserId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UserId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedJob">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedJob" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Jobs">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Jobs" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UserId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UserId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedJob">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedJob" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Jobs">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Jobs" generated properties.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno.vechi\\source\\repos\\onet\\onet\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno.vechi\\source\\repos\\onet\\onet\\views\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\views\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Views\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "Onet\\Views\\Register.xaml.cs",
+              "ToolTip": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Views\\Register.xaml.cs",
+              "RelativeToolTip": "Onet\\Views\\Register.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T20:37:48.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Onet\\Views\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Views\\Login.xaml.cs",
+              "RelativeToolTip": "Onet\\Views\\Login.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T20:29:00.201Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

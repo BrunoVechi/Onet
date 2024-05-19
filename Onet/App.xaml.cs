@@ -1,4 +1,6 @@
-﻿using Onet.Repository;
+﻿using Onet.Interfaces;
+using Onet.Repository;
+using Onet.Services;
 
 namespace Onet
 {
@@ -27,6 +29,10 @@ namespace Onet
         public App()
         {
             InitializeComponent();
+
+            DependencyService.Register<IDialogService, DialogService>();
+            DependencyService.Register<INavigationService, NavigationService>();
+
             Current!.UserAppTheme = AppTheme.Light;
             MainPage = new AppFlyout();
         }

@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Onet.Interfaces;
 using Onet.Models;
 using System.Collections.ObjectModel;
 
@@ -8,22 +9,19 @@ namespace Onet.ViewModels
     public partial class JobListViewModel : ObservableObject
     {
         [ObservableProperty]
-        private ObservableCollection<Job> jobs;
+        private int userId;
 
         [ObservableProperty]
         private Job? selectedJob;
 
-        public JobListViewModel()
-        {
-            Jobs = [];
-            LoadJobs();
-        }
+        [ObservableProperty]
+        private ObservableCollection<Job> jobs = [];        
 
-        private async void LoadJobs()
+        [RelayCommand]
+        public void LoadUserId()
         {
-            var jobsFromRepo = await App.JobRepository.GetJobsAsync(1);
-            foreach (var job in jobsFromRepo)
-                Jobs.Add(job);
+            _ = int.TryParse(SecureStorage.GetAsync("userId").Result, out int id);
+            UserId = id;
         }
 
         [RelayCommand]
@@ -31,6 +29,16 @@ namespace Onet.ViewModels
         {
             if (selectedJob != null)
                 await Application.Current!.MainPage!.Navigation.PushModalAsync(new JobDetails(selectedJob));
+        }
+
+        [RelayCommand]
+        public async Task OnAppearing()
+        {
+            LoadUserId();
+
+            var jobsFromRepo = await App.JobRepository.GetJobsAsync(UserId);
+            foreach (var job in jobsFromRepo)
+                Jobs.Add(job);
         }
     }
 }

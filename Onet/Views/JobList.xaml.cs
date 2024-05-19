@@ -4,10 +4,21 @@ namespace Onet
 {
     public partial class JobList : ContentPage
     {
+        private readonly JobListViewModel _viewModel;
+
         public JobList()
         {
             InitializeComponent();
             BindingContext = new JobListViewModel();
+            _viewModel = (BindingContext as JobListViewModel)!;
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            if (_viewModel != null)
+                await _viewModel.OnAppearing();
         }
     }
 }

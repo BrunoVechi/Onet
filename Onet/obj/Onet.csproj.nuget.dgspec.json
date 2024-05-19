@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Onet.csproj": {}
+    "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Onet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Onet.csproj": {
+    "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Onet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Onet.csproj",
+        "projectUniqueName": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Onet.csproj",
         "projectName": "Onet",
-        "projectPath": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Onet.csproj",
-        "packagesPath": "C:\\Users\\bruno.vechi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\obj\\",
+        "projectPath": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Onet.csproj",
+        "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bruno.vechi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

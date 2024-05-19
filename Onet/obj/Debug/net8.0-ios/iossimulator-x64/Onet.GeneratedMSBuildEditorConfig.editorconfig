@@ -12,59 +12,59 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Onet
-build_property.ProjectDir = C:\Users\bruno.vechi\source\repos\Onet\Onet\
+build_property.ProjectDir = C:\Users\bruno\source\repos\BrunoVechi\Onet\Onet\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/bruno.vechi/source/repos/Onet/Onet/App.xaml]
+[C:/Users/bruno/source/repos/BrunoVechi/Onet/Onet/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Onet.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/bruno.vechi/source/repos/Onet/Onet/AppFlyout.xaml]
+[C:/Users/bruno/source/repos/BrunoVechi/Onet/Onet/AppFlyout.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Onet.AppFlyout.xaml
 build_metadata.AdditionalFiles.TargetPath = AppFlyout.xaml
 build_metadata.AdditionalFiles.RelativePath = AppFlyout.xaml
 
-[C:/Users/bruno.vechi/source/repos/Onet/Onet/FlyoutMenuPage.xaml]
+[C:/Users/bruno/source/repos/BrunoVechi/Onet/Onet/FlyoutMenuPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Onet.FlyoutMenuPage.xaml
 build_metadata.AdditionalFiles.TargetPath = FlyoutMenuPage.xaml
 build_metadata.AdditionalFiles.RelativePath = FlyoutMenuPage.xaml
 
-[C:/Users/bruno.vechi/source/repos/Onet/Onet/Resources/Styles/Colors.xaml]
+[C:/Users/bruno/source/repos/BrunoVechi/Onet/Onet/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Onet.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/bruno.vechi/source/repos/Onet/Onet/Resources/Styles/Styles.xaml]
+[C:/Users/bruno/source/repos/BrunoVechi/Onet/Onet/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Onet.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/bruno.vechi/source/repos/Onet/Onet/Views/JobDetails.xaml]
+[C:/Users/bruno/source/repos/BrunoVechi/Onet/Onet/Views/JobDetails.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Onet.Views.JobDetails.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\JobDetails.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\JobDetails.xaml
 
-[C:/Users/bruno.vechi/source/repos/Onet/Onet/Views/JobList.xaml]
+[C:/Users/bruno/source/repos/BrunoVechi/Onet/Onet/Views/JobList.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Onet.Views.JobList.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\JobList.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\JobList.xaml
 
-[C:/Users/bruno.vechi/source/repos/Onet/Onet/Views/Login.xaml]
+[C:/Users/bruno/source/repos/BrunoVechi/Onet/Onet/Views/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Onet.Views.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Login.xaml
 
-[C:/Users/bruno.vechi/source/repos/Onet/Onet/Views/Register.xaml]
+[C:/Users/bruno/source/repos/BrunoVechi/Onet/Onet/Views/Register.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Onet.Views.Register.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Register.xaml

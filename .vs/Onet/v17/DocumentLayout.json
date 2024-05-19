@@ -1,14 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\",
+  "WorkspaceRootPath": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno.vechi\\source\\repos\\onet\\onet\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno\\source\\repos\\brunovechi\\onet\\onet\\views\\joblist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\views\\joblist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno\\source\\repos\\brunovechi\\onet\\onet\\views\\joblist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\views\\joblist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno\\source\\repos\\brunovechi\\onet\\onet\\views\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\views\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno\\source\\repos\\brunovechi\\onet\\onet\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno\\source\\repos\\brunovechi\\onet\\onet\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno.vechi\\source\\repos\\onet\\onet\\views\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\views\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno\\source\\repos\\brunovechi\\onet\\onet\\flyoutmenupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\flyoutmenupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno\\source\\repos\\brunovechi\\onet\\onet\\viewmodels\\joblistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\viewmodels\\joblistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno\\source\\repos\\brunovechi\\onet\\onet\\views\\jobdetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\views\\jobdetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno\\source\\repos\\brunovechi\\onet\\onet\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Views\\Register.xaml.cs",
-              "RelativeDocumentMoniker": "Onet\\Views\\Register.xaml.cs",
-              "ToolTip": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Views\\Register.xaml.cs",
-              "RelativeToolTip": "Onet\\Views\\Register.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowCcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T20:37:48.382Z",
+              "DocumentIndex": 0,
+              "Title": "JobList.xaml",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Views\\JobList.xaml",
+              "RelativeDocumentMoniker": "Onet\\Views\\JobList.xaml",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Views\\JobList.xaml",
+              "RelativeToolTip": "Onet\\Views\\JobList.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T15:01:32.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Views\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "Onet\\Views\\Login.xaml.cs",
-              "ToolTip": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Views\\Login.xaml.cs",
-              "RelativeToolTip": "Onet\\Views\\Login.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
+              "DocumentIndex": 1,
+              "Title": "JobList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Views\\JobList.xaml.cs",
+              "RelativeDocumentMoniker": "Onet\\Views\\JobList.xaml.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Views\\JobList.xaml.cs",
+              "RelativeToolTip": "Onet\\Views\\JobList.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T20:29:00.201Z",
+              "WhenOpened": "2024-05-19T15:01:29.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Views\\Register.xaml",
+              "RelativeDocumentMoniker": "Onet\\Views\\Register.xaml",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Views\\Register.xaml",
+              "RelativeToolTip": "Onet\\Views\\Register.xaml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T15:01:20.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "Onet\\Views\\Login.xaml",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Views\\Login.xaml",
+              "RelativeToolTip": "Onet\\Views\\Login.xaml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T15:01:14.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Onet\\Views\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Views\\Login.xaml.cs",
+              "RelativeToolTip": "Onet\\Views\\Login.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T15:01:11.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FlyoutMenuPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\FlyoutMenuPage.xaml.cs",
+              "RelativeDocumentMoniker": "Onet\\FlyoutMenuPage.xaml.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\FlyoutMenuPage.xaml.cs",
+              "RelativeToolTip": "Onet\\FlyoutMenuPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:34:10.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Onet\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\App.xaml.cs",
+              "RelativeToolTip": "Onet\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:24:52.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JobDetails.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Views\\JobDetails.xaml.cs",
+              "RelativeDocumentMoniker": "Onet\\Views\\JobDetails.xaml.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Views\\JobDetails.xaml.cs",
+              "RelativeToolTip": "Onet\\Views\\JobDetails.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:14:30.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JobListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\ViewModels\\JobListViewModel.cs",
+              "RelativeDocumentMoniker": "Onet\\ViewModels\\JobListViewModel.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\ViewModels\\JobListViewModel.cs",
+              "RelativeToolTip": "Onet\\ViewModels\\JobListViewModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwCQAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:04:32.249Z",
               "EditorCaption": ""
             }
           ]

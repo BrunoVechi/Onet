@@ -9,9 +9,10 @@ public partial class Login : ContentPage
 
     private async void OnBtnRegisterClicked(object sender, EventArgs e)
     {
-        
-        await Navigation.PushModalAsync(new Register());
-        Navigation.RemovePage(Navigation.ModalStack[0]);
+        var closeTask = Navigation.PopModalAsync();
+        var openTask = Navigation.PushModalAsync(new Register(),false);
+
+        await Task.WhenAll(closeTask, openTask);
     }
 
     private async void OnBtnLoginClicked(object sender, EventArgs e)

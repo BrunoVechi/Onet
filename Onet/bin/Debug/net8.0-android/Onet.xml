@@ -17,11 +17,11 @@
         <member name="P:Onet.ViewModels.JobDetailsViewModel.SelectedJob">
             <inheritdoc cref="F:Onet.ViewModels.JobDetailsViewModel.selectedJob"/>
         </member>
-        <member name="F:Onet.ViewModels.JobDetailsViewModel.loadUserIdAsyncCommand">
-            <summary>The backing field for <see cref="P:Onet.ViewModels.JobDetailsViewModel.LoadUserIdAsyncCommand"/>.</summary>
+        <member name="F:Onet.ViewModels.JobDetailsViewModel.loadUserIdCommand">
+            <summary>The backing field for <see cref="P:Onet.ViewModels.JobDetailsViewModel.LoadUserIdCommand"/>.</summary>
         </member>
-        <member name="P:Onet.ViewModels.JobDetailsViewModel.LoadUserIdAsyncCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Onet.ViewModels.JobDetailsViewModel.LoadUserIdAsync"/>.</summary>
+        <member name="P:Onet.ViewModels.JobDetailsViewModel.LoadUserIdCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Onet.ViewModels.JobDetailsViewModel.LoadUserId"/>.</summary>
         </member>
         <member name="F:Onet.ViewModels.JobDetailsViewModel.addJobCommand">
             <summary>The backing field for <see cref="P:Onet.ViewModels.JobDetailsViewModel.AddJobCommand"/>.</summary>
@@ -44,18 +44,35 @@
         <member name="T:Onet.ViewModels.JobListViewModel">
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Onet.ViewModels.JobListViewModel.UserId">
+            <inheritdoc cref="F:Onet.ViewModels.JobListViewModel.userId"/>
+        </member>
+        <member name="P:Onet.ViewModels.JobListViewModel.SelectedJob">
+            <inheritdoc cref="F:Onet.ViewModels.JobListViewModel.selectedJob"/>
         </member>
         <member name="P:Onet.ViewModels.JobListViewModel.Jobs">
             <inheritdoc cref="F:Onet.ViewModels.JobListViewModel.jobs"/>
         </member>
-        <member name="P:Onet.ViewModels.JobListViewModel.SelectedJob">
-            <inheritdoc cref="F:Onet.ViewModels.JobListViewModel.selectedJob"/>
+        <member name="F:Onet.ViewModels.JobListViewModel.loadUserIdCommand">
+            <summary>The backing field for <see cref="P:Onet.ViewModels.JobListViewModel.LoadUserIdCommand"/>.</summary>
+        </member>
+        <member name="P:Onet.ViewModels.JobListViewModel.LoadUserIdCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Onet.ViewModels.JobListViewModel.LoadUserId"/>.</summary>
         </member>
         <member name="F:Onet.ViewModels.JobListViewModel.navigateToJobDetailsCommand">
             <summary>The backing field for <see cref="P:Onet.ViewModels.JobListViewModel.NavigateToJobDetailsCommand"/>.</summary>
         </member>
         <member name="P:Onet.ViewModels.JobListViewModel.NavigateToJobDetailsCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Onet.ViewModels.JobListViewModel.NavigateToJobDetailsAsync(Onet.Models.Job)"/>.</summary>
+        </member>
+        <member name="F:Onet.ViewModels.JobListViewModel.appearingCommand">
+            <summary>The backing field for <see cref="P:Onet.ViewModels.JobListViewModel.AppearingCommand"/>.</summary>
+        </member>
+        <member name="P:Onet.ViewModels.JobListViewModel.AppearingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Onet.ViewModels.JobListViewModel.OnAppearing"/>.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>

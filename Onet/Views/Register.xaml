@@ -6,8 +6,8 @@
                  HorizontalOptions="Fill"
                  BackgroundColor="#121212">
         <Image Source="logo.png" VerticalOptions="Start" HeightRequest="130" Margin="0,20,0,5"/>
-        <Label Text="Murdock Brothers" HorizontalOptions="Center" TextColor="White"/>
-        <Label Text="CADASTRO" FontSize="Large" HorizontalOptions="Center" TextColor="White"/>
+        <Label Text="Register" HorizontalOptions="Center" TextColor="White"/>
+        <Label Text="REGISTER" FontSize="Large" HorizontalOptions="Center" TextColor="White"/>
         <Entry x:Name="Name"
                Margin="10"              
                MaxLength="60"

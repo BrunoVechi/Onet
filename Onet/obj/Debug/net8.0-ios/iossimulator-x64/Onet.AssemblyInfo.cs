@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Onet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f2b37d5f4b3d9f83bd1e772f6c87d2931ba5c475")]
 [assembly: System.Reflection.AssemblyProductAttribute("Onet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Onet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

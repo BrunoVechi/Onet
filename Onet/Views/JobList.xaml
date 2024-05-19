@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodels="clr-namespace:Onet.ViewModels"
              x:Class="Onet.JobList"
-             Title="Job List">
+             Title="Task List">
 
     <ContentPage.BindingContext>
         <viewmodels:JobListViewModel />

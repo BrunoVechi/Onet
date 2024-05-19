@@ -27,7 +27,7 @@ public partial class Register : ContentPage
 
             await SecureStorage.SetAsync("username", userInDb.Name!);
             await SecureStorage.SetAsync("userId", userInDb.Id.ToString());
-            
+
             await Navigation.PopModalAsync();
         }
         else
@@ -36,7 +36,9 @@ public partial class Register : ContentPage
 
     private async void OnBtnLoginClicked(object sender, EventArgs e)
     {
-        await Navigation.PushModalAsync(new Login());
-        Navigation.RemovePage(Navigation.ModalStack.First(m => m is Register));
+        var closeTask = Navigation.PopModalAsync();
+        var openTask = Navigation.PushModalAsync(new Login(), false);
+
+        await Task.WhenAll(closeTask, openTask);
     }
 }

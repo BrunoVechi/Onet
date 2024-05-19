@@ -15,10 +15,12 @@ namespace Onet
 
         protected override async void OnAppearing()
         {
-            base.OnAppearing();
+            _ = Collection.SelectedItem == null;
 
             if (_viewModel != null)
                 await _viewModel.OnAppearing();
+
+            base.OnAppearing();
         }
     }
 }

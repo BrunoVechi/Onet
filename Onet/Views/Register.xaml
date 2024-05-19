@@ -4,10 +4,10 @@
              x:Class="Onet.Register">
     <StackLayout VerticalOptions="Fill"
                  HorizontalOptions="Fill"
-                 BackgroundColor="#121212">
+                 BackgroundColor="White">
         <Image Source="logo.png" VerticalOptions="Start" HeightRequest="130" Margin="0,20,0,5"/>
-        <Label Text="Register" HorizontalOptions="Center" TextColor="White"/>
-        <Label Text="REGISTER" FontSize="Large" HorizontalOptions="Center" TextColor="White"/>
+        <Label Text="Register" HorizontalOptions="Center" TextColor="Black"/>
+        <Label Text="REGISTER" FontSize="Large" HorizontalOptions="Center" TextColor="Black"/>
         <Entry x:Name="Name"
                Margin="10"              
                MaxLength="60"
@@ -40,7 +40,7 @@
         <Button Text="Register" FontSize="22" HorizontalOptions="Center" Margin="0,15,0,10" Clicked="OnBtnRegisterClicked"/>
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
             <Label Text="Already have an account? "
-                   TextColor="White"
+                   TextColor="Black"
                    FontSize="18"/>
             <Label x:Name="BtnLogin"
                    Text="Login" 

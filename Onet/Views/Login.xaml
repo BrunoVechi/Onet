@@ -4,10 +4,10 @@
              x:Class="Onet.Login">
     <StackLayout VerticalOptions="Fill"
                  HorizontalOptions="Fill"
-                 BackgroundColor="#121212">
+                 BackgroundColor="White">
         <Image Source="logo.png" VerticalOptions="Start" HeightRequest="130" Margin="0,20,0,5"/>
-        <Label Text="OneTodo" HorizontalOptions="Center" TextColor="White"/>
-        <Label Text="LOGIN" FontSize="Large" HorizontalOptions="Center" TextColor="White"/>
+        <Label Text="OneTodo" HorizontalOptions="Center" TextColor="black"/>
+        <Label Text="LOGIN" FontSize="Large" HorizontalOptions="Center" TextColor="Black"/>
         <Entry x:Name="Email"
                Margin="10"
                MaxLength="60"
@@ -16,7 +16,7 @@
                BackgroundColor="#ededed"
                PlaceholderColor="#424242"
                FontSize="20"            
-               Placeholder="Nome"/>
+               Placeholder="Name"/>
         <Entry x:Name="Password"
                Margin="10"
                MaxLength="60"
@@ -26,9 +26,9 @@
                PlaceholderColor="#424242"
                FontSize="20"           
                IsPassword="True" 
-               Placeholder="Senha"/>
+               Placeholder="Password"/>
         <Button x:Name="BtnLogin" Text="Login" FontSize="22" HorizontalOptions="Center" Margin="0,15,0,10" Clicked="OnBtnLoginClicked"/>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">           
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
             <Label x:Name="BtnReset"
                    Text="Register" 
                    TextColor="DodgerBlue"

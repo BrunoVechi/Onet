@@ -31,6 +31,7 @@ namespace Onet
             InitializeComponent();
 
             DependencyService.Register<IDialogService, DialogService>();
+            DependencyService.Register<IKeyboardService, KeyboardService>();
             DependencyService.Register<INavigationService, NavigationService>();
 
             Current!.UserAppTheme = AppTheme.Light;

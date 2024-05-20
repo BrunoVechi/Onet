@@ -270,9 +270,6 @@ C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x6
 C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.inputs
 C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
 C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
-C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_CCCD1F88BAE019FFA9AA8FDF815C3B012F31BD908B9557A0A5FC48A52880707A.png
-C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_CCCD1F88BAE019FFA9AA8FDF815C3B012F31BD908B9557A0A5FC48A52880707A@2x.png
-C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_CCCD1F88BAE019FFA9AA8FDF815C3B012F31BD908B9557A0A5FC48A52880707A@3x.png
 C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.stamp
 C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\header@3x.png
 C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\header@2x.png
@@ -647,3 +644,7 @@ C:\Users\bruno\source\repos\BrunoVechi\Onet\Onet\obj\Debug\net8.0-ios\iossimulat
 C:\Users\bruno\source\repos\BrunoVechi\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
 C:\Users\bruno\source\repos\BrunoVechi\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\bruno\source\repos\BrunoVechi\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Semibold.ttf
+C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_8757C9A68564704B2C448E1CAEA720A7CE57D2992B901F9D96B75E0248DB79B0.png
+C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_8757C9A68564704B2C448E1CAEA720A7CE57D2992B901F9D96B75E0248DB79B0@2x.png
+C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_8757C9A68564704B2C448E1CAEA720A7CE57D2992B901F9D96B75E0248DB79B0@3x.png
+C:\Users\bruno.vechi\source\repos\Onet\Onet\obj\Debug\net8.0-ios\iossimulator-x64\Onet.sourcelink.json

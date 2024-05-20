@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Onet.csproj": {}
+    "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Onet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Onet.csproj": {
+    "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Onet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Onet.csproj",
+        "projectUniqueName": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Onet.csproj",
         "projectName": "Onet",
-        "projectPath": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\Onet.csproj",
-        "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\source\\repos\\BrunoVechi\\Onet\\Onet\\obj\\",
+        "projectPath": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Onet.csproj",
+        "packagesPath": "C:\\Users\\bruno.vechi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bruno.vechi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -56,6 +56,10 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -66,11 +70,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.40, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.40, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -107,6 +111,10 @@
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -117,11 +125,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.40, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.40, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",

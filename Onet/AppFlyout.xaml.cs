@@ -8,16 +8,14 @@ public partial class AppFlyout : FlyoutPage
             Navigation.PushModalAsync(new Login());
 
         InitializeComponent();
-
         IsPresentedChanged += FlyoutMenuPageIsPresentedChanged!;
     }
 
     private void FlyoutMenuPageIsPresentedChanged(object sender, EventArgs e)
     {
-        if (IsPresented)
-        {
+        if (IsPresented)        
             OnAppearing();
-        }
+        
         else
         {
             OnDisappearing();

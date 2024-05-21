@@ -1,12 +1,75 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno.vechi\\source\\repos\\onet\\onet\\viewmodels\\jobdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\viewmodels\\jobdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno.vechi\\source\\repos\\onet\\onet\\views\\jobdetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\views\\jobdetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|c:\\users\\bruno.vechi\\source\\repos\\onet\\onet\\views\\jobdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD2B0F8A-9B43-4CFB-84FC-EC063E461410}|Onet\\Onet.csproj|solutionrelative:onet\\views\\jobdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobDetails.xaml",
+              "DocumentMoniker": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Views\\JobDetails.xaml",
+              "RelativeDocumentMoniker": "Onet\\Views\\JobDetails.xaml",
+              "ToolTip": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Views\\JobDetails.xaml",
+              "RelativeToolTip": "Onet\\Views\\JobDetails.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T17:53:54.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobDetails.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Views\\JobDetails.xaml.cs",
+              "RelativeDocumentMoniker": "Onet\\Views\\JobDetails.xaml.cs",
+              "ToolTip": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\Views\\JobDetails.xaml.cs",
+              "RelativeToolTip": "Onet\\Views\\JobDetails.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T17:53:50.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JobDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\ViewModels\\JobDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Onet\\ViewModels\\JobDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\bruno.vechi\\source\\repos\\Onet\\Onet\\ViewModels\\JobDetailsViewModel.cs",
+              "RelativeToolTip": "Onet\\ViewModels\\JobDetailsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T17:46:53.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

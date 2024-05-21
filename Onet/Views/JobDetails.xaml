@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodels="clr-namespace:Onet.ViewModels"
              x:Class="Onet.JobDetails"
-             Title="Job Details"> 
-    
+             Title="Job Details">
+
     <StackLayout Padding="10">
         <Label Text="Title" FontAttributes="Bold"/>
         <Entry Text="{Binding SelectedJob.Title}" Placeholder="Title"/>
@@ -13,7 +13,10 @@
         <Editor Text="{Binding SelectedJob.Description}" Placeholder="Description"/>
 
         <Label Text="Status" FontAttributes="Bold"/>
-        <Entry Text="{Binding SelectedJob.Status}" Placeholder="Status" Keyboard="Numeric"/>
+        <Picker ItemsSource="{Binding EnumOptions}"
+                SelectedItem="{Binding SelectedStatus}"               
+                VerticalOptions="Center"
+                HorizontalOptions="FillAndExpand" />
 
         <Label Text="Creation" FontAttributes="Bold"/>
         <DatePicker Date="{Binding SelectedJob.Creation}" />
@@ -25,9 +28,9 @@
         <DatePicker Date="{Binding SelectedJob.Finished}" />
 
         <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-            <Button Text="Add" Command="{Binding AddJobCommand}"/>
-            <Button Text="Update" Command="{Binding UpdateJobCommand}"/>
-            <Button Text="Delete" Command="{Binding DeleteJobCommand}"/>
+            <Button Text="Add Job" Command="{Binding AddJobCommand}" />
+            <Button Text="Update Job" Command="{Binding UpdateJobCommand}" />
+            <Button Text="Delete Job" Command="{Binding DeleteJobCommand}" />
         </StackLayout>
     </StackLayout>
 </ContentPage>

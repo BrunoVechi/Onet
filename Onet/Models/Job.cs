@@ -1,4 +1,5 @@
-﻿using SQLite;
+﻿using Onet.Enums;
+using SQLite;
 
 namespace Onet.Models
 {
@@ -9,7 +10,7 @@ namespace Onet.Models
         public int UserId { get; set; }
         public string? Title { get; set; }
         public string? Description { get; set; }
-        public int Status { get; set; }
+        public EJobStatus Status { get; set; }
         public DateTime Creation { get; set; }
         public DateTime Started { get; set; }
         public DateTime Finished { get; set; }

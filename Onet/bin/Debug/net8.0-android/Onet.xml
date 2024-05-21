@@ -17,6 +17,12 @@
         <member name="P:Onet.ViewModels.JobDetailsViewModel.SelectedJob">
             <inheritdoc cref="F:Onet.ViewModels.JobDetailsViewModel.selectedJob"/>
         </member>
+        <member name="P:Onet.ViewModels.JobDetailsViewModel.SelectedStatus">
+            <inheritdoc cref="F:Onet.ViewModels.JobDetailsViewModel.selectedStatus"/>
+        </member>
+        <member name="P:Onet.ViewModels.JobDetailsViewModel.EnumOptions">
+            <inheritdoc cref="F:Onet.ViewModels.JobDetailsViewModel.enumOptions"/>
+        </member>
         <member name="F:Onet.ViewModels.JobDetailsViewModel.loadUserIdCommand">
             <summary>The backing field for <see cref="P:Onet.ViewModels.JobDetailsViewModel.LoadUserIdCommand"/>.</summary>
         </member>
@@ -255,6 +261,12 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedJob">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedJob" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedStatus">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedStatus" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EnumOptions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EnumOptions" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Jobs">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Jobs" generated properties.</summary>
         </member>
@@ -278,6 +290,12 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedJob">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedJob" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedStatus">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedStatus" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EnumOptions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EnumOptions" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Jobs">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Jobs" generated properties.</summary>

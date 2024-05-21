@@ -1,7 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Onet.Enums;
 using Onet.Interfaces;
 using Onet.Models;
+using System.Collections.ObjectModel;
 
 namespace Onet.ViewModels
 {
@@ -17,14 +19,22 @@ namespace Onet.ViewModels
         [ObservableProperty]
         private Job selectedJob;
 
+        [ObservableProperty]
+        private string selectedStatus;
+
+       [ObservableProperty]
+        private ObservableCollection<string> enumOptions;
+
         public JobDetailsViewModel(Job job)
         {
             LoadUserId();
             SelectedJob = job;
+            SelectedStatus = SelectedJob.Status.ToString();
 
             _dialogService = DependencyService.Get<IDialogService>();
             _keyboardService = DependencyService.Get<IKeyboardService>();
             _navigationService = DependencyService.Get<INavigationService>();
+            EnumOptions = new ObservableCollection<string>(Enum.GetNames(typeof(EJobStatus)));
         }
 
         [RelayCommand]
@@ -38,6 +48,8 @@ namespace Onet.ViewModels
         public async Task AddJobAsync()
         {
             SelectedJob.UserId = UserId;
+            SelectedJob.Status = Enum.Parse<EJobStatus>(SelectedStatus);
+
             await _keyboardService.HideKeyboardAsync();
 
             if (await App.JobRepository.SaveJobAsync(SelectedJob))
@@ -53,6 +65,8 @@ namespace Onet.ViewModels
         public async Task UpdateJobAsync()
         {
             SelectedJob.UserId = UserId;
+            SelectedJob.Status = Enum.Parse<EJobStatus>(SelectedStatus);
+
             await _keyboardService.HideKeyboardAsync();
 
             if (await App.JobRepository.SaveJobAsync(SelectedJob))
